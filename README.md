@@ -4,6 +4,9 @@ A desktop serial monitor built with Python, Tkinter, and pySerial. It lets you
 connect to a serial port, send messages, view sent and received data, and save
 the logs to a text file.
 
+<img width="853" height="540" alt="image" src="https://github.com/user-attachments/assets/b939f46a-e99b-4b50-a38f-d49bbe99ced4" />
+
+
 ## Requirements
 
 - Python 3
