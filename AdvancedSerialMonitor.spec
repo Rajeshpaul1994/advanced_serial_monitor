@@ -6,7 +6,11 @@ a = Analysis(
     pathex=[],
     binaries=[],
     datas=[],
+<<<<<<< HEAD
     hiddenimports=['pymodbus', 'pymodbus.client', 'pymodbus.exceptions'],
+=======
+    hiddenimports=[],
+>>>>>>> 5154e379dacb7e6037c2f38987144453a81a3724
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
