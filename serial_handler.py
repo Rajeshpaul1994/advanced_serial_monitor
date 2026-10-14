@@ -18,6 +18,10 @@ class SerialHandler:
     ports = list_ports.comports()
     return [port.device for port in ports]
 
+  def is_connected(self):
+    """Returns True if serial port is currently open."""
+    return self.serial_port is not None and self.serial_port.is_open
+
   def connect(self, port, baudrate=115200):
     """Connects to the selected serial port and starts listening thread."""
     try:
